@@ -16,6 +16,8 @@ public class Author {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Version
+    private long version;
     private String firstname;
     private String lastname;
     @JsonIgnore
