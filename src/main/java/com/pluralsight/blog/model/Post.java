@@ -34,7 +34,7 @@ public class Post {
     private Author author;
 
     @Version
-    private long version;
+    private Long version;
 
     public Post() {
         super();
